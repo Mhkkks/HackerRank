@@ -24,5 +24,30 @@ Sample Output
 2 I am a file
 3 Read me until end-of-file.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+     
+     
+     Scanner scan= new Scanner(System.in);
+         
+        
+         {for(int n=1;scan.hasNext() ;n++)
+         { String s = scan.nextLine();
+         System.out.println(n+" "+s);
+        
+         }
+         scan.close();
+         
+    }}
+     
+    }
+
 
 
